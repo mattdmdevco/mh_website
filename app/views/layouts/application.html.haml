@@ -1,9 +1,20 @@
 !!!
 %html
   %head
-    %title Matt Haines Elite Fitness
+    %title DevCo, Innovation through Software
+    %meta{:charset => "utf-8"}/
+    %title DevCo, Innovation through Software
+    %meta{:content => "D&M DevCo is a software developmemt company based in San Diego, CA. We specialize in the Ruby on Rails framework building software solutions for businesses.",
+    :name => "description"}/
+    %meta{:content => "software, ruby on rails, development, engineering, coding, website, web application, business application", :name => "keywords"}/
+    %meta{:content => "mhaines25", :name => "author"}/
+    %meta{:content => "width=device-width, initial-scale=1.0, maximum-scale=1.0", :name => "viewport"}/
+
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
+
+
+    = favicon_link_tag ""
     = csrf_meta_tags
   %body
     = yield
