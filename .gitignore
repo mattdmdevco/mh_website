@@ -12,10 +12,6 @@
 !/log/.keep
 /tmp
 
-# Ignore all logfiles and tempfiles.
-/log/*.log
-/tmp
-
 #Ignore Rubymine editor files
 .idea/*
 

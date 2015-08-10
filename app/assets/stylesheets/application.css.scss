@@ -10,6 +10,23 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+
+ *= require mazel/bootstrap
+ *= require mazel/font-awesome
+ *= require mazel/ionicons
+ *= require mazel/jquery-ui
+ *= require mazel/navigation
+ *= require mazel/style
+ *= require mazel/plugin/animate
+ *= require mazel/plugin/colorbox
+ *= require mazel/plugin/flexslider
+ *= require mazel/plugin/jPushMenu
+ *= require mazel/plugin/jquery.fs.tipper
+ *= require mazel/plugin/jquery.fullPage
+ *= require mazel/plugin/mediaelementplayer
+ *= require mazel/plugin/owl.carousel
+ *= require mazel/plugin/smoothproducts
+ *= require mazel/plugin/YTPlayer
  *= require_tree .
  *= require_self
  */
